@@ -1,0 +1,40 @@
+/* Global Variables
+   ============================= */
+
+   :root {
+    --color-primary: #C271FF;
+    --color-black:  #071629;
+    --color-white: #ffffff;
+    --color-background: #071629;
+  
+    --text-color: var(--color-black);
+  
+    --font-family-base: 'Source Sans Pro';
+  
+    --font-size-xx-small: 0.75rem;
+    --font-size-x-small: 0.875rem;
+    --font-size-small: 1rem;
+    --font-size-medium: 1.125rem;
+    --font-size-large: 1.25rem;
+    --font-size-x-large: 2rem;
+    --font-size-xx-large: 2.875rem;
+  
+    --font-weight-regular: 400;
+    --font-weight-bold: 600;
+    --font-weight-x-bold: 700;
+  
+    --line-height-base: normal;
+    --line-height-adjusted: 1.625rem;
+  }
+
+
+/* Typography
+   ============================= */
+
+  .text-primary {
+    color: var(--color-primary) !important;
+  }
+
+  .bg-primary {
+    background-color: var(--color-primary) !important;
+  }
