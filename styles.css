@@ -4,8 +4,9 @@
    :root {
     --color-primary: #C271FF;
     --color-secondary:  #071629;
+    --color-gray: #8C8C8C;
     --color-white: #ffffff;
-    --color-background: #071629;
+    --color-black: #071629;
   
     --text-color: var(--color-black);
   
@@ -31,12 +32,16 @@
 /* Global Styles
    ============================= */
 
-  * {
-    font-family: Source Sans Pro;
+  html {
+    font-family: 'Source Sans Pro';
   }
 
 /* Bootstrap Overrides
    ============================= */
+
+  .small {
+    color: var(--color-gray) !important;
+  }
 
   .text-primary {
     color: var(--color-primary) !important;
@@ -62,12 +67,15 @@
     width: 7.125rem;
   }
 
+  .nav-link:hover {
+    color: var(--color-primary) !important;
+  }
+
   .nav-sm-logos {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: auto;
-    margin-left: auto;
   }
 
   .homepagebody {
@@ -104,9 +112,24 @@
     width: 9.375rem;
   }
 
+  h1 {
+    font-size: 
+  }
+
   h2 {
-    margin-bottom: 4rem;
-    margin-top: 4rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    
+  }
+
+  .faq-text {
+    font-size: 3.75rem;
+    font-weight: var(--font-weight-light);
+    line-height: var(--line-height-base);
+  }
+
+  .faq {
+    padding-bottom: 4.5rem;
   }
 
   h3 {
@@ -131,9 +154,6 @@
     font-weight: var(--font-weight-x-bold) !important;
   }
 
-  .mbrshp-section {
-
-  }
 
   .mbrshp-opt img {
     width: 2.8125rem;
@@ -152,6 +172,11 @@
   .mbrshp-btn {
     margin-top: 5rem;
     margin-bottom: 5rem;
+  }
+
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: var(--color-primary) !important;
+    border-color: var(--color-primary) !important;
   }
 
 /* Pricing Page

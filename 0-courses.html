@@ -20,37 +20,42 @@
 
     <!-- Header and Navbar Section -->
 
-    <header>
-        <nav class="navbar navbar-expand-md navbar-light text-white mb-4">
-            <button class="navbar-toggler mt-4" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="nav-logos px-auto text-center" href="./0-homepage.html">
-                <div class="nav-sm-logos d-md-none logo-sm">
-                    <img class="sm-logo-smile logo-smile mt-5" src="images/smile_off.png" alt="logoStart">
-                    <img class="sm-logo-text logo-text" src="images/logo.png" alt="logoEnd">
+    <div class="container-sm">
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark text-white mb-4">
+                <div class="container justify-content-center">
+                    <button class="navbar-toggler mt-4" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="col-3 d-md-none"></div>
+                    <a class="nav-logos col-3 mr-auto" href="./0-homepage.html">
+                        <div class="nav-sm-logos d-md-none logo-sm">
+                            <img class="sm-logo-smile logo-smile mt-5" src="images/smile_off.png" alt="logoStart">
+                            <img class="sm-logo-text logo-text" src="images/logo.png" alt="logoEnd">
+                        </div>
+                        <div class="nav-lg-logos row d-none d-md-block">
+                            <img class="lg-logo-smile logo-smile" src="images/smile_off.png" alt="logoStart">
+                            <img class="lg-logo-text logo-text" src="images/logo.png" alt="logoEnd">
+                        </div>
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ml-auto text-center">
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="./0-courses.html">COURSES</a>
+                                <span class="sr-only">(current)</span>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="./0-pricing.html">PRICING</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">LOGIN</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="nav-lg-logos row d-none d-md-block">
-                    <img class="lg-logo-smile logo-smile" src="images/smile_on.png" alt="logoStart">
-                    <img class="lg-logo-text logo-text" src="images/logo.png" alt="logoEnd">
-                </div>
-            </a>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto text-center">
-                    <li class="nav-item active">
-                        <a class="nav-link text-white" href="./0-courses.html">COURSES</a>
-                        <span class="sr-only">(current)</span>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="./0-pricing.html">PRICING</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">LOGIN</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
+    </div>
     <main>
 
         <!-- Heroic Quote -->
