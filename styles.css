@@ -113,7 +113,7 @@
   }
 
   h1 {
-    font-size: 
+    font-size: 5rem;
   }
 
   h2 {
@@ -130,10 +130,6 @@
 
   .faq {
     padding-bottom: 4.5rem;
-  }
-
-  h3 {
-
   }
 
   .hero-btn {
@@ -191,11 +187,6 @@
     padding-top: 5.25rem;
     padding-bottom: 5.25rem;
   }
-
-  .quote {
-
-  }
-
 
 /* Courses Page
   ============================= */
